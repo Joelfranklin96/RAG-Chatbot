@@ -22,7 +22,7 @@ def format_docs(docs):
 
 
 def run_llm(query: str, chat_history: Optional[List[Dict[str, Any]]] = None):
-    # Safer pattern for default mutable args
+    
     if chat_history is None:
         chat_history = []
     
